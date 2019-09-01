@@ -27,21 +27,6 @@ struct WeatherModel: Decodable {
             }
         }
         let metric: Metric
-        struct Imperial: Codable {
-            let value: Int
-            let unit: String
-            let unitType: Int
-            private enum CodingKeys: String, CodingKey {
-                case value = "Value"
-                case unit = "Unit"
-                case unitType = "UnitType"
-            }
-        }
-        let imperial: Imperial
-        private enum CodingKeys: String, CodingKey {
-            case metric = "Metric"
-            case imperial = "Imperial"
-        }
     }
     let temperature: Temperature
     let mobileLink: URL
