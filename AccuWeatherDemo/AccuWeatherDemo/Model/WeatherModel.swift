@@ -27,6 +27,9 @@ struct WeatherModel: Decodable {
             }
         }
         let metric: Metric
+        private enum CodingKeys: String, CodingKey {
+            case metric = "Metric"
+        }
     }
     let temperature: Temperature
     let mobileLink: URL
