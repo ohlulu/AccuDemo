@@ -12,6 +12,7 @@
 		BEC993DD231B5D4200ACCF14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC993DB231B5D4200ACCF14 /* Main.storyboard */; };
 		BEC993DF231B5D4A00ACCF14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC993DE231B5D4A00ACCF14 /* Assets.xcassets */; };
 		BEC993E2231B5D4A00ACCF14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC993E0231B5D4A00ACCF14 /* LaunchScreen.storyboard */; };
+		BEC993EB231B70C200ACCF14 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC993EA231B70C200ACCF14 /* WeatherModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BEC993DE231B5D4A00ACCF14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEC993E1231B5D4A00ACCF14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEC993E3231B5D4A00ACCF14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEC993EA231B70C200ACCF14 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		BEC993D6231B5D4200ACCF14 /* AccuWeatherDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BEC993E9231B632D00ACCF14 /* Model */,
 				BEC993D7231B5D4200ACCF14 /* AppDelegate.swift */,
 				BEC993D9231B5D4200ACCF14 /* ViewController.swift */,
 				BEC993DB231B5D4200ACCF14 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				BEC993E3231B5D4A00ACCF14 /* Info.plist */,
 			);
 			path = AccuWeatherDemo;
+			sourceTree = "<group>";
+		};
+		BEC993E9231B632D00ACCF14 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BEC993EA231B70C200ACCF14 /* WeatherModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEC993DA231B5D4200ACCF14 /* ViewController.swift in Sources */,
+				BEC993EB231B70C200ACCF14 /* WeatherModel.swift in Sources */,
 				BEC993D8231B5D4200ACCF14 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
